@@ -1,13 +1,16 @@
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable no-undef */
 import React from 'react'
 import ReactDOM from 'react-dom'
+import NavBar from './components/NavBar/NavBar'
 
 const App = () => (
-  // eslint-disable-next-line react/jsx-filename-extension
-  <h1>holi</h1>
+  <div>
+    <NavBar />
+  </div>
 )
 
 ReactDOM.render(
   <App />,
-  // eslint-disable-next-line no-undef
   document.getElementById('root'),
 )
