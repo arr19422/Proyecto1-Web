@@ -1,13 +1,41 @@
 .NavBar {
-    background-color: teal;
-    height: 60px;
+    background-color: white;
+    height: 54px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI';
+    justify-content: start;
+    margin-bottom: 2px;
+    padding-left: 60px;
+    margin-top: -10px;
+    margin-left: -10px;
 }
 
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-gap: 10px;
+    list-style: none;
+    align-items: baseline;
+    
+}
+
+.nav-items{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 0px 0px 10px 10px;
+}
+
+.nav-items-edge{
+    font-size: 18px;
+    margin-left: 7px;
+    font-weight: bolder;
+    font-weight: 600;
+}
+
+.img-logo{
+    height: 23px;
+    width: 108px;
+    margin-left: 27px;
 }

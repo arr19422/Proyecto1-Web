@@ -1,0 +1,52 @@
+.div-container{
+    margin-top: -22px;
+    justify-content: center;
+    padding-top: 70px;
+    height: 120%;
+}
+
+.img-container{
+    left: 0;
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+}
+
+.div-text{
+    z-index: 0;
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.h1-text{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+    
+}
+
+.a-container{
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px 6px 22px;
+    border: 2px solid transparent;
+    outline-offset: -3px;
+    max-width: 100%;
+    z-index: 0;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    background-color: #005da6;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+    white-space: nowrap;
+    cursor: pointer;
+    left: 43%;
+}

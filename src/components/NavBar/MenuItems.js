@@ -2,7 +2,7 @@ const NavBarItems = [
   {
     text: 'Edge',
     href: '#',
-    class: 'nav-items',
+    class: 'nav-items nav-items-edge',
   },
   {
     text: 'Caracteristicas',
@@ -23,6 +23,11 @@ const NavBarItems = [
     text: 'Microsoft News',
     href: '#',
     class: 'nav-items',
+  },
+  {
+    text: 'Todo Microsoft',
+    href: '#',
+    class: 'nav-items-drop',
   },
 ]
 

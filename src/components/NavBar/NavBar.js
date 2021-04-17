@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react'
@@ -6,7 +7,11 @@ import './NavBar.css'
 
 const NavBar = () => (
   <nav className="NavBar">
-    <h2>React</h2>
+    <div className="microsoftLogo">
+      <a href="https://www.microsoft.com/es-gt/">
+        <img className="img-logo" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" />
+      </a>
+    </div>
     <ul className="nav-menu">
       {NavBarItems.map((item, index) => (
         <li key={index}><a className={item.class} href={item.href}>{item.text}</a></li>
