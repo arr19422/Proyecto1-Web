@@ -8,6 +8,7 @@ import Cards from './components/Card/Card'
 import ImageContainer from './components/ImageContainer/ImageContainer'
 import Device from './components/Device/Device'
 import Title from './components/Title/Title'
+import Info from './components/Info/Info'
 
 const App = () => (
   <div>
@@ -17,6 +18,7 @@ const App = () => (
     <ImageContainer />
     <Title />
     <Device />
+    <Info />
   </div>
 )
 
