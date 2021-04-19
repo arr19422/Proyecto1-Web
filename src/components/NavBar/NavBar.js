@@ -17,6 +17,8 @@ const NavBar = () => (
         <li key={index}><a className={item.class} href={item.href}>{item.text}</a></li>
       ))}
     </ul>
+    <a href="@" className="nav-items-drop">Todo Microsoft</a>
+    <a href="@" className="nav-items-drop">Buscar</a>
   </nav>
 )
 

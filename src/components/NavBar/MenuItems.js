@@ -24,11 +24,6 @@ const NavBarItems = [
     href: '#',
     class: 'nav-items',
   },
-  {
-    text: 'Todo Microsoft',
-    href: '#',
-    class: 'nav-items-drop',
-  },
 ]
 
 export default NavBarItems

@@ -29,6 +29,15 @@
     margin: 0px 0px 10px 10px;
 }
 
+.nav-items-drop{
+    text-decoration: none;
+    left: 40%;
+    position: relative;
+    color: black;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
 .nav-items-edge{
     font-size: 18px;
     margin-left: 7px;
