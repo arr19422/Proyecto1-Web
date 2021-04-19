@@ -9,6 +9,7 @@ import ImageContainer from './components/ImageContainer/ImageContainer'
 import Device from './components/Device/Device'
 import Title from './components/Title/Title'
 import Info from './components/Info/Info'
+import Disclaimer from './components/Disclaimer/Disclaimer'
 
 const App = () => (
   <div>
@@ -19,6 +20,7 @@ const App = () => (
     <Title />
     <Device />
     <Info />
+    <Disclaimer />
   </div>
 )
 

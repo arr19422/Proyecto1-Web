@@ -1,0 +1,17 @@
+.disclaimer-div{
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+
+}
+
+.disclaimer-p{
+    font-size: 11px;
+    text-align: left;
+    font-family: 'Segoe UI';
+    margin-left: 50px;
+}
